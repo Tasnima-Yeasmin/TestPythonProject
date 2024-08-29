@@ -1,0 +1,26 @@
+## Ignore pycharm and python generated temporary files
+.idea/
+.venv/
+venv/
+__pycache__
+build/
+dist/
+
+## Ignore vscode files
+.vscode/
+
+## Ignore data files
+*.jpg
+*.mp4
+*.avi
+*.png
+*.log
+*.json
+*.bin
+*.xml
+*.onnx
+*.zip
+*.webm
+
+## Skip requirements.txt from ignoring
+!requirements.txt
