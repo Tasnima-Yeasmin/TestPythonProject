@@ -14,7 +14,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 # Add the directory containing main.py to the Python path
 sys.path.append(current_dir)
 
-templates = Jinja2Templates(directory=os.path.join(current_dir, r"D:\PSD\TestPythonProject\templates"))
+templates = Jinja2Templates(directory=os.path.join(os.path.dirname(current_dir), "templates"))
 
 @app.get("/")
 def home(request: Request):
